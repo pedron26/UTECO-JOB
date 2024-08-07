@@ -1,0 +1,189 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+header .logo {
+    height: 50px;
+}
+
+header .search-bar {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+
+header .search-bar input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 5px;
+    line-height: 1.8; /* Ajusta este valor según sea necesario */
+}
+header .search-bar input[type="text"] {
+    padding: 5px;
+    padding-top: 7px; /* Ajusta este valor según sea necesario */
+    border-radius: 5px;
+    border: none;
+    margin-right: 5px;
+}
+header .search-bar input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 5px;
+    margin-top: 2px; /* Ajusta este valor según sea necesario */
+}
+
+
+header .search-bar button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #218838;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+header .search-bar button:hover {
+    background-color: #1e7e34;
+}
+
+/* Menú de usuario */
+header .user-menu {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+header .user-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Actualizar la imagen del usuario si tiene una imagen de perfil */
+header .user-icon[src="IMG/default.JPG"] {
+    content: url("IMG/default.JPG");
+}
+
+header .dropdown-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+header .dropdown-menu.show {
+    display: block;
+}
+
+header .dropdown-menu a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+header .dropdown-menu a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Botón de inicio */
+header .inicio-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+header .inicio-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos del contenido principal */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+main h1 {
+    color: #333;
+    margin-top: 0;
+}
+
+/* Estilos del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    max-width: 100%;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Mensajes de error */
+.errors {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #fdd;
+    border: 1px solid #d00;
+    border-radius: 5px;
+    color: #d00;
+}
+
+.errors p {
+    margin: 0;
+}
