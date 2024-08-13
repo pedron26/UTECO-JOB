@@ -46,7 +46,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['subir_vacante'])) {
     <div class="sidebar">
         <img src="IMG/Logo.jpeg" alt="Logo UTECO">
         <a href="inicio.php">Inicio</a>
-        <a href="portafolioadmin.php">Agregar Vacante</a>
+        <a href="control_usuarios.php">Control de Usuarios</a>
+        <a href="portafolioadmin.php">Publicar Vacante</a>
         <a href="ver_vacantes.php">Ver Vacantes</a>
         <a href="ver_solicitudes.php">Solicitudes<span class="counter"><?php echo getSolicitudesCount(); ?></span></a>
         <a href="logout.php">Cerrar Sesión</a>

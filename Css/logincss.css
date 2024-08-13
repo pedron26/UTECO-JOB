@@ -105,3 +105,40 @@ form button[type="button"] {
 form button[type="button"]:hover {
     background-color: #c23321;
 }
+/* Estilos adicionales para los campos de empresa */
+#empresa-fields {
+    margin-top: 20px;
+}
+
+#empresa-fields label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+#empresa-fields input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+/* Estilo para el select */
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    outline: none;
+}
